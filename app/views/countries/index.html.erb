@@ -1,0 +1,14 @@
+
+<div>
+  <table>
+    <tbody>
+      <% @countries.each do |country| %>
+        <tr>
+          <td><%= country.name %></td>
+          <td><%= country.abbreviated_name%></td>
+        <tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+
